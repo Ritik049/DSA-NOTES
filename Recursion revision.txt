@@ -1,0 +1,9 @@
+﻿*Sorting the array: (STACK) → For sorting purpose always use stack Itself, and just put a single element out and just delegate work to recursion and in last insert that element
+//TC = O(N2), SC = O(N)
+
+
+**Reversing the array: (STACK) —> for reversiong purpose always use stack itself, just delegate work to recursion,and just insert the top most element to its correct position.
+
+
+**Generating All String (HAVING CONDITION)---> Especially with last condition(prev Character, so put that character into temp string and send it as previous for next iteration.
+//TC = O(2^N) SC = O(N)
