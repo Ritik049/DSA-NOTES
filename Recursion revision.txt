@@ -29,5 +29,13 @@ try with sorting the array and skip
 
 //Not forget to write the the return if you are using  base case without for loop.
 
-//Array, Subset, SubArray
+//Array, Subset, SubArray <Subset has no order>
 //String, Subsequence, Substring
+
+
+
+** Whenever we are finding with combinations/subset itself, we can use, the 2^N *k (necessarily in time complexity)
+
+**For subset unique we can also use the, for loop and skip duplicates<subset need not any order>
+//TC = O(2^N*K) and SC = O(2^N*K) //WE gonna have 2^N Subsets.
+
