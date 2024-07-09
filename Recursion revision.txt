@@ -76,8 +76,21 @@ Here point is (moving in adjacnet directions) the condition color which we itsel
 //We make outer as base condition and (the boolean (isSafe\Validate)-->inside. (Kya mein ye color rakh skta hun on taht basis)
 
 
-We can memoise the array itself when we have to find the word Serach and we need to partition the stirng.
-//We can use for loop and substring facility but along with that we can use hashmpa<String, boolean> so that for next future iterations we can save the unnesaary overlappingproblems.
+** We can memoise the array itself when we have to find the word Serach and we need to partition the stirng.
+//We can use for loop and substring facility but along with that we can use hashmap<String, boolean> so that for next future iterations we can save the unnesaary overlappingproblems.
+
+** Reember when you need to break || or solve any puzzle with filling values,  you can return boolean to save un necessarily 9*9 by using this.  --> Try to return boolean value so that we can easily solve 
+//and not forget to return false; if you have '.' character,  and you try to fill but it not get filled, so return false
+//In last return true it means , no vacant character is there.
+//If puzzle already filled return true; 
+//otherwise try to fill if you end up all iteration still not filled--> return false; inside if.as you are gonna returngin in same if (true)
+//TC = 9^(n^2)
+//SC = O(1)
+
+
+**Expression Add operators: For such type questions where we need to take an element and then other and between them put some operator we have choices of operator so can be hit by recurison
+//Addition and subtraction can hit by normal prevNum, but for multiplication, we need some thing extra
+//resSoffar-prevNum + prevNum*currNum  and prevNum updated for next iteration prevNum*currNum.
 
 
 
