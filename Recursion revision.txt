@@ -7,3 +7,27 @@
 
 **Generating All String (HAVING CONDITION)---> Especially with last condition(prev Character, so put that character into temp string and send it as previous for next iteration.
 //TC = O(2^N) SC = O(N)
+
+
+** Finding Combination Sum (As in array itself)
+//Use temp, and use index wisely. but here the base cases that is sum helps you to get out.
+//Use temp.add -> helper -> temp.remove
+//TC = O(2^t*k) sC = (k*x) k is time complexity to add the length k in arrayList, t is target ,where we can pick same index anytime
+//TC = O(2^N) if we are using the normal subseti finind.
+
+
+** Finding Combination sum with just boolean
+//REturn yes if you find the target and use pick|| not pick
+
+//Remember if written combinations you can sort the array but if mentiond that you need to find unique combinations you can
+try with sorting the array and skip
+//Here for pick and not pick we can use with for loop inside.
+//Not forget to use candidates[i]>target break or candidates[i]<target include these are essential
+//Not forget to skipping at unique combinations
+//TC = O(2^N) SC = O(N)
+
+
+//Not forget to write the the return if you are using  base case without for loop.
+
+//Array, Subset, SubArray
+//String, Subsequence, Substring
