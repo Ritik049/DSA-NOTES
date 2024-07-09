@@ -13,6 +13,9 @@
 //Use temp, and use index wisely. but here the base cases that is sum helps you to get out.
 //Use temp.add -> helper -> temp.remove
 //TC = O(2^t*k) sC = (k*x) k is time complexity to add the length k in arrayList, t is target ,where we can pick same index anytime
+
+
+** If we are given to take natural numbers we can use, for loop i=index ; i<=9 ;i++ and we can use
 //TC = O(2^N) if we are using the normal subseti finind.
 
 
@@ -38,4 +41,45 @@ try with sorting the array and skip
 
 **For subset unique we can also use the, for loop and skip duplicates<subset need not any order>
 //TC = O(2^N*K) and SC = O(2^N*K) //WE gonna have 2^N Subsets.
+
+
+** For  given natural numbers not make separte arrayList just use for loop i=index and i<=0.
+
+
+** For letter combinations, we are going to use, as at current character we need to make combination with other digit charactters --> here using this logic we cna use for loop for letters and index for the length of digits.string.
+/// abc  def
+//ad , ae, af, bc liek that
+
+**For palindrome partition we need to first check the substring then only put in temp and do further calls here first checking is necessary to do.
+
+** For word searching in a given matrix or graph given not forget to use visited array or we can use to substitute for some time when we are checking,  then place the same character.
+** tend to keep visited array along with you
+** For word searching and pattern seraching first use nested for loops for starting then make another function for final searching. when you do searching not forget to use visited kind a concept otherwise you will run in a endless loop.
+TC = (m*n*4^K), SC = O(1)
+
+**  //In Queen type of problems where putting a character is based on previous poisitions and you are need to finding out all possible combinations, then we need to use, a kind of backtracking approach with character removeal once we put it.
+    //Here the outer boundary--> ie.  if we take col as outer so that will the base case in our recursion
+    //Other row wise will be our inside for loop. (as we dont know how much casese we have);
+    //Tend to make boards first then do continue otherwise we will stuck
+    //TC = O(N!*N)
+    //SC = O(N2)  to redduce use row+col for lower digaonla ,and upper diagonal --> n-1+col-row; and arrays intialise with 2*n-1
+
+
+
+** RAT IN MAZE : Here we start from 1st point need to reach End point
+$$$$$$$$$$ TWIST: we need to add D, R , L, U as per (path between nodes) not nodes itself
+//%% When we traverse node then check 4 directions so first we make visited  the current, and check visitness of that 4's then put visitness of that 4's
+//### But when we need to put letters as per path we first check the all that 4's then if they are not visited then only we do visited the current.((( YOU CAn USE IT Directly also )) make current as visited and in last make it unvisited.
+
+**M coloring problems : ## Some what lengthy in language but simple
+Here point is (moving in adjacnet directions) the condition color which we itself will do  so  we need to save those colors while we moving -->similar to n Queen problem, <HERE WE PUT FROM OURSELVES>(this is the basic crux)
+//We make outer as base condition and (the boolean (isSafe\Validate)-->inside. (Kya mein ye color rakh skta hun on taht basis)
+
+
+We can memoise the array itself when we have to find the word Serach and we need to partition the stirng.
+//We can use for loop and substring facility but along with that we can use hashmpa<String, boolean> so that for next future iterations we can save the unnesaary overlappingproblems.
+
+
+
+
 
