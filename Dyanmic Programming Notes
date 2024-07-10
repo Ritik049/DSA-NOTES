@@ -1,1 +1,91 @@
+## IDEA of DP is --> Memoisation and tabulation and space optimisation
+##top down-->genarlly memoisation and bottom up -->generally tabulation
+
+//Fix steps
+//First form the problem in terms of index 
+//Then write base case 
+//Then write all possible cases
+//Then just memoise and tabulize
+
+
+## For counting no. of ways we just return 1 in base case especially top down approach. 
+
+
+## For absolute difference you need to not just put it forth directly like arr[n] - helper(n-1) this is wrong way as helper[n-1] give answer not the array element.
+
+## Whenever we are going backwards like 2 steps, or k steps befor going first check n>=i
+
+
+## use some your practical brain, as least amount in money is 0 not negative.
+
+## FOR PICK YOU NEED TO GO TO I-2 type so first do pick = nums[i] and if i>1 then only do Pick+=dp[i-2]
+
+## for circuar thing tend to use the first INclude and last exclude separately, and first exclude and last include separately,
+
+## IT is not necessary that for maximum we need a max[] kind a variable we just think it of as we are going to top down approach so we can not use maximum varialbe and return
+//We just try all possible values, and find maximum for current index.
+
+## Whenever we use DP we not take sum||maximum along with us, and remember dp one formula for that correct index we are going to store all answer.
+## we just find the possibilities with putting that current elemnet thne find maximum. <IN DP>
+##IN recursion summation can haappen so (mostly from i=0 ---> i==n )
+
+
+
+*** This is normal Recursion template **   <<HERE SUMMATION APPROACH USED>>
+ public int helperRecursion(int[][]points,int index,int prev,int sum)
+    {
+        //BASE CASE
+        if(index==points.length) return sum;
+        
+        //Possibilities
+        int maximum = 0;
+        for(int i=0;i<3;i++)
+        {
+            if(i!=prev)
+            {
+                maximum = Math.max(maximum,helperRecursion(points,index+1,i,sum+points[index][i]));
+            }
+        }
+        
+        return maximum;
+    }
+
+
+<<<<<<<<<<<<<<<<<<<<***********************  Recursion Template for DP for finding maximum ***************************>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ public int helperRecursion(int[][]points,int index,int prev)
+    { 
+        //BASE CASE
+        if(index==0)
+        {
+            int maximum = 0;
+            for(int i=0;i<3;i++)
+            {
+                if(i!=prev)
+                {
+                    maximum = Math.max(maximum, points[0][i]);
+                }
+            }
+            return maximum;
+        }
+        
+        //Possibilities
+        int maximum= 0;
+        for(int i=0;i<3;i++)
+        {
+            if(i!=prev)
+            {
+              int  activity  = points[index][i] + helperRecursion(points,index-1,i);
+            
+                maximum = Math.max(activity,maximum);
+            }
+        }
+        
+        return maximum;
+        
+    }
+
+<<SEE TABULATION APPRoach also as specifically ninja here we take one index extra due to prevINdex!=currIndex  (for starting) and IN DP it is fix that in at any point of dp Array it is the answer. ie. dp[n-1][3]
+//For maximum we can use dp itself.
+
+** FUNDA of DP ARRAY at any given index whole answer get stored.
 
