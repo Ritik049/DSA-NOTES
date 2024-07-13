@@ -94,3 +94,12 @@
 ** target==0 &&  arr[0]==0 return 2; target ==0 || arr[0]==target return 1;
 
 ## for coins kind a problem where we need to divide the array element and do the count so tend to stop at the oth index and tend to find out the no. of coins or else return maximum;
+
+## tend to go with index<0 cases as here you need not to handle more cases;
+## As if gonna with count ways and using same index multiple time no problem to return 1;
+## But if there is case where we need to return the value || maximum kind thing like knapSack problem, thaen, we need to use W/wt[0] *v[0];
+
+## Always think in terms of dp that current index is our answer this will help you to , set the base case;
+## for rod cutting it is also i/1*price[0]
+
+
