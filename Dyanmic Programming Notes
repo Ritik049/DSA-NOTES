@@ -89,3 +89,8 @@
 
 ** FUNDA of DP ARRAY at any given index whole answer get stored.
 
+
+##AS it may happen there is element 0th case;
+** target==0 &&  arr[0]==0 return 2; target ==0 || arr[0]==target return 1;
+
+## for coins kind a problem where we need to divide the array element and do the count so tend to stop at the oth index and tend to find out the no. of coins or else return maximum;
