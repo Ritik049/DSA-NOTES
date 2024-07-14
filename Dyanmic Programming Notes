@@ -103,3 +103,38 @@
 ## for rod cutting it is also i/1*price[0]
 
 
+## for LCS try to print from backwards so you need to just use two pointers only.
+
+## longest common substring, --> here we accumulate and add only when we have same character and here not take we just take 0 and to store answer we use answer variable to store maximuml
+
+## Whenever we not want answer from notPick but answer from pick otherwise it should be zero but we want notPick stps  take place then we use answer variable to store the answer;
+
+## for longest palindromic subsequence we can use just longest common subsequeence just do one thing jsut reverst the string
+
+## for making string palindrome,  we need to just find LCs then do minus;
+
+
+@#Whenver question is like make a stirng equal to another string by adding || removing tend to use LCS becasue of minimum;
+
+## For shortest common supersequence problem here we put characters same as here while finding our LCS then add rest of characters.
+
+## for loop is used only when we need to find the subsequence of stirng inside that string itself not for comparing  it is for generating.
+
+## When we are involving with two string and finding some commanality and equal we always take two index and slove by these two like distinct subsequences == t
+
+## Whenever question like minimum maximum operations to make string 1 to string 2 so always think of dp
+
+
+
+
+//**************** STOCKS DP **************************
+** //At any given index we have two possibilities.
+//We start from first
+        //Eitehr move ahead, or not buy  or buy/sell at given index.
+        //For moving ahead we have no value associated with it.
+        //As think buy sell operation as doing sum where we assigning sign +ve and -ve to getting total profit.
+        //First write answer expression , then relate with question expression how you get answer then find pattern in it.
+        //Then think recursive approach.
+
+** think in normal maximum and just play with the indexes;
+## we can play with the indexes as well;like for index>=n in dp , we can do fpr dp[n+1] or dp[n+2] if reuqeired
