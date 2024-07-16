@@ -138,3 +138,29 @@
 
 ** think in normal maximum and just play with the indexes;
 ## we can play with the indexes as well;like for index>=n in dp , we can do fpr dp[n+1] or dp[n+2] if reuqeired
+
+##LIS Appraoch
+## we use prev Index approach;
+
+## We can use the single dp array for LIS this is because we can do but this is normal dp not from standard dp perspective
+## dp[i] = Math.max(1 + dp[j],dp[i]);
+
+## Trick for printing the sequence : use  last index go  to previous then preivos.and then in last reverse the arrayl;
+## User temp array appproch in binary and just found lower bound and try to update that temp. so that we can in end just need to give the temp length;
+
+##Tend to use comparator and compare and tend to focus on LIS, if thing is like  Longest ____ subsequence
+
+## tend to use skipping and use i from n-1 to 0 and j from n-1 to i to decreasing subsequence;
+
+
+## Tend to use count array in LIS, this appraoch is used when we want to accumulate the counting.<######>
+##IN dp , we visualise that at a given index what answer is ---> going to index j to accumulate.
+
+#******************* MCM multiplication DP *****************************
+#Whene on pattern changing our answer get changed.
+##For Rod cutting if on cuts there is change in order answer get changed.
+##Min cost to cut the rod here we can see on partiion order change our reuslt change and here we are doing partion so tend to add two boundaries to get better view of understanding;
+##  // Then CUTS[j+1] - CUTS[i-1] will always give us the correct length of the stick on which the cut is being made
+  //  0 3  5 1 4  7 
+ //   0   1 3 5 4   7    (1,len) <AS these are partion indexes so we need a rod thats why we aad 0 and len
+ //7 + f(i,ind-1)+ f(ind+1, len);
