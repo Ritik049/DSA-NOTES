@@ -1,0 +1,11 @@
+## Find the Maximum Length of Valid Subsequence I  
+      Here we need parity (means adjacent element addition and  remainder by 2) 
+      Remainder by 2 always thik of 2 result either 0 and 1 and if all elements get divided by 2 then definitely in bits format.
+      Not jump directly on dp ->recursion, memoisation, tabulation, as if only <count,length> word given then it can be solved by single DP, and %2 given then foresure
+      we need even and odd dp arrays which can store the count.
+      Here in this question asked sum equals to other adjacent pair it means 3 possibilites odd + odd, even + even,<same parity>,  odd+even (alternating parity);
+      Recursion: TC = O(3^N) and SC = (N+N+2);
+
+## Maximum length of Increasing subseqeunce
+    Here we can use tabulation technique and a single dp approach --> this is because recursion || memoisation || tabulation will give lots of cases to handle.
+    
