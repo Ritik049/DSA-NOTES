@@ -128,7 +128,7 @@
 %%%%%% DEFINE ELEMENTS HERE %%%%%%%
 \newcommand{\name}{Students Name} % Your Name
 \newcommand{\course}{B.Tech.} % Your Course
-% \newcommand{\department}{ }
+\newcommand{\department}{Mumbai,India}
 % \newcommand{\roll}{XXXXXXXXX} % Your Roll No.
 \newcommand{\phone}{8103547861} % Your Phone Number
 \newcommand{\emaila}{ritikagrawal047@gmail.com} %Email 1
@@ -150,10 +150,10 @@
 
 }\parbox{\dimexpr\linewidth-3.1cm\relax}{
 \begin{tabularx}{\linewidth}{L r} 
-  \textbf{\LARGE RITIK AGRAWAL} & +91-81035478\\ 
+  \textbf{\LARGE RITIK AGRAWAL} & +91-8103547861\\ 
   \course &  \href{mailto:example@lol.com}{ritikagrawal047@gmail.com}\\
   \department &  \href{https://github.com/Ritik049}{Github} \\
-  {Madhav Institute of Technology \& Science} & \href{https://www.linkedin.com/in}{https://www.linkedin.com/in/ritik-agrawal-13b099294/} 
+  {Madhav Institute of Technology \& Science} & \href{https://www.linkedin.com/in/ritik-agrawal-13b099294/}{LinkedIn} 
     \end{tabularx}
 }
 
@@ -168,11 +168,11 @@
   \hline
   \textbf{Degree/Certificate } & \textbf{Institute/Board} & \textbf{CGPA/Percentage} & \textbf{Year}\\
   \hline
-  B.Tech.  & Madhav Institute of Technology \& Science & 8.4 & 2019-2023\\
+  B.Tech.  & Madhav Institute of Technology \& Science & 8.4 & 2019-23\\
   \hline
-  Senior Secondary &  Guru Nanak Higher Secondary School & 88\% & 2019 \\
+  Senior Secondary &  Guru Nanak Higher Secondary School & 88\% & 2018-19 \\
   \hline
-  Secondary & Guru Nanak Higher Secondary School & 92\% & 2017 \\
+  Secondary & Guru Nanak Higher Secondary School & 92\% & 2016-17 \\
   \hline
 \end{tabularx}}
 \vspace{-2mm}
