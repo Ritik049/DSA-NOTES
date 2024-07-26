@@ -33,7 +33,7 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \setlength{\footskip}{4.08003pt} % Fix for the footskip warning}
-\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\geometry{left=1.4cm, top=0.8cm, right=0.8cm, bottom=1cm}
 % Adjust margins
 %\addtolength{\oddsidemargin}{-0.5in}
 %\addtolength{\evensidemargin}{-0.5in}
@@ -105,7 +105,7 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
 \newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
-\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=3ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
 
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
 \newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
@@ -148,7 +148,7 @@
 % \includegraphics[width=2.5cm,clip]{GNIT_Kolkata_logo.png}
 % replace the fields with your details
 
-}\parbox{\dimexpr\linewidth-3.1cm\relax}{
+}\parbox{\dimexpr\linewidth-0.9cm\relax}{
 \begin{tabularx}{\linewidth}{L r} 
   \textbf{\LARGE RITIK AGRAWAL} & +91-8103547861\\ 
   \course &  \href{mailto:example@lol.com}{ritikagrawal047@gmail.com}\\
@@ -185,67 +185,67 @@
        {LTIMindtree}{Mumbai, India}
        {Software Engineer}{Jan 2024 - Present}
        \resumeItemListStart
-     \item {Writing and testing code as per specification given}
-     \item {Identifying and reporting bugs.}
+     \item {Write and test code according to specifications.}
+     \item {Identify and report bugs.}
      \resumeItemListEnd
     
       \resumeSubheading
         {Praedico Global Research Pvt. Ltd.}{Gurugram, India}
         {Software Intern}{Jan 2023 - May 2023}
         \resumeItemListStart
-      \item {Build the backend of student tracker management sytem.}
-          \item {Optimise the performance of system by using asynchronous programming and make it secure through JWT authentication method.}
-         \item {Contribute in development of frontend for interactive interface such as integrating Chart.js.}
-          
+      \item {Built the backend for a student tracker management system.}
+      \item {Optimized system performance using asynchronous programming and enhanced security through JWT authentication.}
+      \item {Contributed to frontend development by integrating Chart.js for interactive interfaces.}
       \resumeItemListEnd
       
    \resumeSubHeadingListEnd
  \vspace{-5.5mm}
+
 %-----------PROJECTS-----------------
 \section{Personal Projects}
 \resumeSubHeadingListStart
     
     \resumeProject
-      {Online Krishi Mandi} %Project Name
-      {Bridge between farmers and buyers} %Project Name, Location Name
-      {June-2024 Jul-2024} %Event Dates
+      {Online Krishi Mandi} % Project Name
+      {Bridge between farmers and buyers} % Description
+      {June 2024 - July 2024} % Event Dates
       
       \resumeItemListStart
-        \item {Facilitating farmer's(user) to track their crop data season wise, notify as per market current trends and  also predict crop's price.}
-        \item {Implemented Factory, Observor and Strategy patterns for managing user roles,sending real-time notifications and optimising pricing strategies.}
-        \item {Designed for maintainability and scalability with loosely coupled code.}
-        \item {Techonology Used: Java, SpringBoot, MySQL,GitLab}
-    \resumeItemListEnd
-    {\href{https://gitlab.com/design-thinker1/online-krishi-mandi/-/tree/master}{GitHub: https://gitlab.com/design-thinker1/online-krishi-mandi/-/tree/master}} %Website
-
+        \item {Facilitated farmers in tracking their crop data seasonally, provided notifications based on current market trends, and predicted crop prices.}
+        \item {Implemented Factory, Observer, and Strategy patterns for managing user roles, sending real-time notifications, and optimizing pricing strategies.}
+        \item {Designed the system for maintainability and scalability with loosely coupled code.}
+        \item {Technology Used: Java, Spring Boot, MySQL, GitLab}
+      \resumeItemListEnd
+    \href{https://gitlab.com/design-thinker1/online-krishi-mandi/-/tree/master}{GitLab: https://gitlab.com/design-thinker1/online-krishi-mandi/-/tree/master} % Link
+    
     \resumeProject
-      {Price comparison Google Extension} %Project Name
-      {An extension, helps in comparing prices of a product at real time across various ecommerce platforms} %Project Name, Location Name
-      {} %Event Dates
+      {Price Comparison Google Extension} % Project Name
+      {An extension that helps in comparing product prices in real-time across various e-commerce platforms} % Description
+      {} % Event Dates
      
       \resumeItemListStart
-        \item {Build a google chrome extension helps in comparing prices acrossing different ecommerce platforms}
-        \item {Use client side Js Injection technique to reduce latency by 70\% in comparsion to python backend code for scraping data using beautysoup.}
-        \item{Build an UI to get final result except that the ecommerce platform on which we currently stand.}
-        \item {Technology Used: Python, JS, HTML, CSS}
-    \resumeItemListEnd
-     {\href{https://gitlab.com/ritikagrawal047/pricecomparisonextension}{Extension: https://gitlab.com/ritikagrawal047/pricecomparisonextension}} %Website
-     \resumeProject
-      {Ecommerce Platform} %Project Name
-      {Raising funds for NGO} %Project Name, Location Name
-      {} %Event Dates
+        \item {Built a Google Chrome extension to compare prices across different e-commerce platforms.}
+        \item {Reduced latency by 70\% by using  client-side JavaScript injection technique as compared to Python backend code using BeautifulSoup for data scraping.}
+        \item {Developed a UI to display the final result, dynamically decides which platform results will appear. }
+        \item {Technology Used: Python, JavaScript, HTML, CSS}
+      \resumeItemListEnd
+    \href{https://gitlab.com/ritikagrawal047/pricecomparisonextension}{Extension: https://gitlab.com/ritikagrawal047/pricecomparisonextension} % Link
+    
+    \resumeProject
+      {Ecommerce Platform} % Project Name
+      {Platform for raising funds for an NGO} % Description
+      {} % Event Dates
      
       \resumeItemListStart
-        \item {An ecommerce platform provide ecommerce service to user.}
-        \item {Make Interactive UI , use redux toolkit to state managment, and admin Dashboard to add, update, delete, get the products}
-        \item{Use JWT Authentication for making the login and registration process secure}
-        \item {Technology Used: MongoDB, ReactJS, NodeJs, Express, Redux, Render,GitHub} 
-    \resumeItemListEnd
-{\href{https://gitlab.com/ritikagrawal047/pricecomparisonextension}{Site: https://agrawal-ritik-frontend-ecommerce-ngo.onrender.com/} %Website
-     
-  \resumeSubHeadingListEnd
+        \item {Developed an e-commerce platform to provide e-commerce services to users.}
+        \item {Created an interactive UI, used Redux Toolkit for state management, and implemented an admin dashboard to add, update, delete, and retrieve products.}
+        \item {Implemented JWT Authentication to secure the login and registration processes.}
+        \item {Technology Used: MongoDB, ReactJS, Node.js, Express, Redux, Render, GitHub}
+      \resumeItemListEnd
+    \href{https://agrawal-ritik-frontend-ecommerce-ngo.onrender.com/}{Site: https://agrawal-ritik-frontend-ecommerce-ngo.onrender.com/} % Link
+    
+\resumeSubHeadingListEnd
 \vspace{-5.5mm}
-
 
 \section{Skills}
  \resumeHeadingSkillStart
@@ -256,7 +256,7 @@
  \resumeSubItem{Database}
  {MySQL, MongoDB, PostgreSQL} 
   \resumeSubItem{FrameWorks} % Category
- {MERN Stack, SpringBoot} % Skills
+ {MERN Stack, SpringBoot,Django} % Skills
  \resumeSubItem{VersionControl/Deployment Tools} % Category
  {GitHub, GitLab, Docker} % Skills
  
@@ -265,11 +265,15 @@
 
 \section{Certifications}
 \resumeHeadingSkillStart
- \resumeSubItem{Design Patterns & SOLID Principles} % Category
-    {Get thorough understanding of need and usage of SOLID principles and design patterns through out the industry. }
- \resumeSubItem{Introduction to cloud computing} % Category
-    {Learn the needs and usage and benefits of using cloud techonlogy. Successfully deployed project on IBM cloud} % Skills
- \resumeHeadingSkillEnd
+
+ \resumeSubItem{Design Patterns \& SOLID Principles} % Certification Name
+    {Gained a thorough understanding of the need for and application of SOLID principles and design patterns across the industry.}
+    
+ \resumeSubItem{Introduction to Cloud Computing} % Certification Name
+    {Learned the needs, uses, and benefits of cloud technology. Successfully deployed a api testing project on IBM Cloud.}
+
+\resumeHeadingSkillEnd
+
 
 
 % \section{Positions of Responsibility}
