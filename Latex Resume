@@ -181,13 +181,15 @@
  \section{Experience}
    \resumeSubHeadingListStart
 
-     \resumeSubheading
-       {LTIMindtree}{Mumbai, India}
-       {Software Engineer}{Jan 2024 - Present}
-       \resumeItemListStart
-     \item {Write and test code according to specifications.}
-     \item {Identify and report bugs.}
-     \resumeItemListEnd
+\resumeSubheading
+  {LTIMindtree}{Mumbai, India}
+  {SAP Consultant}{Jan 2024 - Present}
+  \resumeItemListStart
+  \item {Serving as an SAP Security Consultant for client projects, responsible for the creation, updating, and deletion of EMEA Hub user accounts.}
+  \item {Reduced report filtering time by 67\% through automation using VBA scripting in Excel, leading to improved team efficiency.}
+  \item {Developed functional dashboards to provide actionable analytics, aiding in effective decision-making.}
+  \item{Techonolgy Using: SAP software, GRC, Fiori,Ms Excel.}
+  \resumeItemListEnd
     
       \resumeSubheading
         {Praedico Global Research Pvt. Ltd.}{Gurugram, India}
@@ -196,6 +198,7 @@
       \item {Built the backend for a student tracker management system.}
       \item {Optimized system performance using asynchronous programming and enhanced security through JWT authentication.}
       \item {Contributed to frontend development by integrating Chart.js for interactive interfaces.}
+      \item{Technology Used: MongoDB, ReactJs, NodeJs ,Express}
       \resumeItemListEnd
       
    \resumeSubHeadingListEnd
@@ -263,16 +266,16 @@
  \resumeHeadingSkillEnd
 
 
-\section{Certifications}
-\resumeHeadingSkillStart
+% \section{Certifications}
+% \resumeHeadingSkillStart
 
- \resumeSubItem{Design Patterns \& SOLID Principles} % Certification Name
-    {Gained a thorough understanding of the need for and application of SOLID principles and design patterns across the industry.}
+%  \resumeSubItem{Design Patterns \& SOLID Principles} % Certification Name
+%     {Gained a thorough understanding of the need for and application of SOLID principles and design patterns across the industry.}
     
- \resumeSubItem{Introduction to Cloud Computing} % Certification Name
-    {Learned the needs, uses, and benefits of cloud technology. Successfully deployed a api testing project on IBM Cloud.}
+%  \resumeSubItem{Introduction to Cloud Computing} % Certification Name
+%     {Learned the needs, uses, and benefits of cloud technology. Successfully deployed a api testing project on IBM Cloud.}
 
-\resumeHeadingSkillEnd
+% \resumeHeadingSkillEnd
 
 
 
