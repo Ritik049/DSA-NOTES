@@ -1,0 +1,17 @@
+For Arrays:
+When we need to reduce the size of array on a going steps then we move to use, stack kind a thing.
+Frequency mostly question done by using HashMap <When 2 and 3 given so first tend to remove on basis of 3 not on 2 if they are getting divided.
+*** LITTLE BIT Math,  if we want minimum ways to remove 10 and we are allowed to use 3 and 2 so min ways is 6 and 4  --> this can easily be done by cnt+=t/3 and then use cnt+=1;
+
+
+**bits** logic --> get the ith bit:- (num>>(i-1))&1;
+--->set the ith bit:- (num|(1<<(i-1);
+--->Clear the ith bit:- (num - (1<<(i-1)));
+--->Remove the last bit: num & num-1;   ((And as well as finding power of 2)) becuase num&num-1 will give 0;
+--->Whenever things like counting set BITS, finding power of 2 is directly related with N&N-1
+        //We have following steps:
+        //AND || OR || XOR || ADD || Subtract || N-1
+        //Remember when case with related to 2 then definitely use these bit manipulation
+
+---->Setting rightmost bit: n|(n+1);
+
