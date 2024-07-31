@@ -48,3 +48,7 @@ static void mySieve(int[]prime, int n)
 //then it must be think it of tabulation where we can reduce the no. of dimensions.
 
 //Whereever we need the backward things for current level kind a thing,  we can use dp(mostly single dp array) and other vairable which need to be adjusted as here height.
+
+
+
+** ---> When we are using sliding window remember when we reduce from start and we want count from front end for the total upto a certain condition, just go with start++ and in end just add.
