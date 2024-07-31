@@ -14,4 +14,37 @@ Frequency mostly question done by using HashMap <When 2 and 3 given so first ten
         //Remember when case with related to 2 then definitely use these bit manipulation
 
 ---->Setting rightmost bit: n|(n+1);
+---->rightmost = (xr&(xr-1))^xr;  || 110 & 101->100^110 -->10 i.e righmost bit no.
 
+--->>When we need to skip, but at the same time <string size changes> then dp use--> fails
+     Stack use fails deletion of characters in string itself due to given condition--> here we can carry boolean variable which can tell us whether we encountered or not.
+--->
+//SIEVE METHODOLOGY.
+static void mySieve(int[]prime, int n)
+    {
+        for(int i=1;i<=n;i++)
+        {
+            prime[i] = i;
+        }
+        
+        for(int i=2;i*i<=n;i++)
+        {
+            if(prime[i]==i)
+            {
+                for(int j=i*i;j<=n;j+=i)   //Thsi is for smallest prime factor;
+                {
+                    if(prime[j]==j)
+                    {
+                        prime[j]=i;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+---->For Questions such as we have the getting many and many no of vairalbe dp ;
+//then it must be think it of tabulation where we can reduce the no. of dimensions.
+
+//Whereever we need the backward things for current level kind a thing,  we can use dp(mostly single dp array) and other vairable which need to be adjusted as here height.
