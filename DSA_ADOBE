@@ -52,3 +52,4 @@ static void mySieve(int[]prime, int n)
 
 
 ** ---> When we are using sliding window remember when we reduce from start and we want count from front end for the total upto a certain condition, just go with start++ and in end just add.
+**Whenever thing is of one grouping all ones together always tend to think of summation and window appraoch.
