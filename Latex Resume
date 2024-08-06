@@ -158,6 +158,14 @@
 }
 
 
+% %-----------EXPERIENCE-----------------
+ \section{Career Summary}
+   Enthusiastic Software Engineer with a B.Tech. degree and hands-on experience in SAP software and backend development. I specialize in Java, Spring Boot, and Django, and am known for enhancing system performance and creating intuitive dashboards. Passionate about solving complex problems and developing practical tech solutions, I excel at improving efficiency and delivering impactful results. Always eager to embrace new challenges and contribute to innovative projects in dynamic environments.
+\vspace{-1.5mm}
+
+
+
+
 
 % %-----------EDUCATION-----------------
 \section{Education}
@@ -177,15 +185,31 @@
 \end{tabularx}}
 \vspace{-2mm}
 
+%%-----SKILLS -----------------
+\section{Skills}
+ \resumeHeadingSkillStart
+  \resumeSubItem{BackEnd} % Category
+    {Java, Python}
+ \resumeSubItem{FrontEnd} % Category
+    {HTML+CSS, ReactJS} % Skills
+ \resumeSubItem{Database}
+ {MySQL, MongoDB, PostgreSQL} 
+  \resumeSubItem{FrameWorks} % Category
+ {MERN Stack, SpringBoot,Django} % Skills
+ \resumeSubItem{VersionControl/Deployment Tools} % Category
+ {GitHub, GitLab, Docker} % Skills
+ 
+ \resumeHeadingSkillEnd
+
 % %-----------EXPERIENCE-----------------
  \section{Experience}
    \resumeSubHeadingListStart
 
 \resumeSubheading
   {LTIMindtree}{Mumbai, India}
-  {SAP Consultant}{Jan 2024 - Present}
+  {Software Engineer}{Jan 2024 - Present}
   \resumeItemListStart
-  \item {Serving as an SAP Security Consultant for client projects, responsible for the creation, updating, and deletion of EMEA Hub user accounts.}
+  \item {Serving as an SAP Software Engineer for client projects, responsible for maintaining functioning of creation, updation, and deletion of EMEA Hub user accounts.}
   \item {Reduced report filtering time by 67\% through automation using VBA scripting in Excel, leading to improved team efficiency.}
   \item {Developed functional dashboards to provide actionable analytics, aiding in effective decision-making.}
   \item{Techonolgy Using: SAP software, GRC, Fiori,Ms Excel.}
@@ -193,12 +217,22 @@
     
       \resumeSubheading
         {Praedico Global Research Pvt. Ltd.}{Gurugram, India}
-        {Software Intern}{Jan 2023 - May 2023}
+        {Software Developer Intern}{Jan 2023 - May 2023}
         \resumeItemListStart
       \item {Built the backend for a student tracker management system.}
       \item {Optimized system performance using asynchronous programming and enhanced security through JWT authentication.}
       \item {Contributed to frontend development by integrating Chart.js for interactive interfaces.}
       \item{Technology Used: MongoDB, ReactJs, NodeJs ,Express}
+      \resumeItemListEnd
+
+       \resumeSubheading
+        {Shivila Technologies }{Home office, India}
+        {Data Scraper}{Oct 2022 - Dec 2022}
+        \resumeItemListStart
+      \item {Scraped data using a "web scraper extension" and optimized page scraping performance by creating sitemaps for automating the extraction of data from multiple pages.
+ }
+    
+      \item{Technology Used: Web Scraper Extension, SiteMaps, VPN }
       \resumeItemListEnd
       
    \resumeSubHeadingListEnd
@@ -250,32 +284,19 @@
 \resumeSubHeadingListEnd
 \vspace{-5.5mm}
 
-\section{Skills}
- \resumeHeadingSkillStart
-  \resumeSubItem{BackEnd} % Category
-    {Java, Python}
- \resumeSubItem{FrontEnd} % Category
-    {HTML+CSS, ReactJS} % Skills
- \resumeSubItem{Database}
- {MySQL, MongoDB, PostgreSQL} 
-  \resumeSubItem{FrameWorks} % Category
- {MERN Stack, SpringBoot,Django} % Skills
- \resumeSubItem{VersionControl/Deployment Tools} % Category
- {GitHub, GitLab, Docker} % Skills
- 
- \resumeHeadingSkillEnd
 
 
-% \section{Certifications}
-% \resumeHeadingSkillStart
 
-%  \resumeSubItem{Design Patterns \& SOLID Principles} % Certification Name
-%     {Gained a thorough understanding of the need for and application of SOLID principles and design patterns across the industry.}
+\section{Certifications}
+\resumeHeadingSkillStart
+
+ \resumeSubItem{Design Patterns \& SOLID Principles} % Certification Name
+    {Gained a thorough understanding of the need for and application of SOLID principles and design patterns across the industry.}
     
-%  \resumeSubItem{Introduction to Cloud Computing} % Certification Name
-%     {Learned the needs, uses, and benefits of cloud technology. Successfully deployed a api testing project on IBM Cloud.}
+ \resumeSubItem{Introduction to Cloud Computing} % Certification Name
+    {Learned the needs, uses, and benefits of cloud technology. Successfully deployed a api testing project on IBM Cloud.}
 
-% \resumeHeadingSkillEnd
+\resumeHeadingSkillEnd
 
 
 
